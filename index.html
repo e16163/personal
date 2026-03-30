@@ -303,7 +303,7 @@ h1 {
     <div class="name-wrap"><h1>hello!</h1></div>
   </div>
   <div class="scroll-hint">
-    <span>scroll</span>
+    <span>more</span>
     <div class="scroll-line"></div>
   </div>
 </section>
@@ -326,7 +326,24 @@ h1 {
       <div class="bio-inner">
         <p class="bio-line">17 &nbsp;·&nbsp; DC area</p>
         <p class="bio-line">hs student</p>
-        <p class="bio-line" style="font-style:italic;color:var(--mist);">i like trying out new things (this is fun)</p>
+        <p class="bio-line" style="
+          font-style: italic;
+          font-weight: 600; 
+          background: linear-gradient(
+            to bottom, 
+            #FFDAB9 0%, 
+            #FFE5B4 25%, 
+            #FFFFFF 50%, 
+            #F4A460 75%, 
+            #FFDAB9 100%
+          );
+          -webkit-background-clip: text;
+          background-clip: text;
+          color: transparent;
+          display: inline-block;
+        ">
+          i like trying out new things (this is fun)
+        </p>
       </div>
     </div>
   </div>
